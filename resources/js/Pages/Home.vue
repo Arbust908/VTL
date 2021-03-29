@@ -14,8 +14,14 @@ export default {
     name: "home",
     computed: {
         ...mapState({
-            count: (state) => state.count,
-        }),
-    },
+            count: state => state.count
+        })
+    }
 };
 </script>
+
+<style lang="sass" scoped>
+.home
+    background-color: red
+    @apply h-screen p-8
+</style>
