@@ -1,7 +1,10 @@
 <template>
     <div class="home">
         <h1>{{ count }}</h1>
-        <button class="btn" @click="$store.commit('INCREMENT')">
+        <button
+            class="btn font-bold uppercase text-blue-500 hover:text-red-400"
+            @click="$store.commit('INCREMENT')"
+        >
             Incremantar
         </button>
     </div>
@@ -22,6 +25,5 @@ export default {
 
 <style lang="sass" scoped>
 .home
-    background-color: red
-    @apply h-screen p-8
+    @apply h-full p-8
 </style>

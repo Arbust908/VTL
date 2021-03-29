@@ -27,6 +27,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "home",
@@ -56,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home[data-v-6a63e488] {\n  background-color: red;\n  height: 100vh;\n  padding: 2rem;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home[data-v-6a63e488] {\n    height: 100%;\n    padding: 2rem\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -202,7 +205,7 @@ var render = function() {
     _c(
       "button",
       {
-        staticClass: "btn",
+        staticClass: "btn font-bold uppercase text-blue-500 hover:text-red-400",
         on: {
           click: function($event) {
             return _vm.$store.commit("INCREMENT")
